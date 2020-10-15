@@ -1,1 +1,1 @@
-# stopwatch
+# small vanilla JavaScript project (STOPWATCH) 
