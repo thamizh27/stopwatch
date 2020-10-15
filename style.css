@@ -1,0 +1,53 @@
+/* font-family: 'Josefin Sans', sans-serif; */
+
+/* Global starts: */
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #191919;
+    color: #c8c8c8;
+    font-family: 'Josefin Sans', sans-serif;   
+}
+
+/* main div css */
+#contain {
+    height: 100%;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+}
+
+h1, h2 , p {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    text-transform: capitalize;
+}
+
+/* button style */
+button {
+    text-decoration: none;
+    padding: 1rem 3rem;
+    font-weight: 800;
+    font-size: 2rem;
+    margin-left: 4rem;
+    margin-top: 3rem;
+    border-radius: 1rem;
+    outline: none;
+    cursor: pointer;
+}
+
+/* button hover syle */
+button:hover {
+    background-color: #191919;
+    color: #c8c8c8;
+    border: solid 1px #c8c8c8;
+    transition: all ease .45s;
+}
